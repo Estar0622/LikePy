@@ -1372,9 +1372,8 @@ public class Lp {
     public static String lower(String string) {
         return string.toLowerCase();
     }
-
     public static String strip(String string) {
-        return string.strip();
+        return string.trim(); // Java 8에서 trim()으로 대체
     }
 
     public static String strip(String string, String element) {
@@ -1382,7 +1381,11 @@ public class Lp {
     }
 
     public static String rstrip(String string) {
-        return string.stripTrailing();
+        int i = string.length() - 1;
+        while (i >= 0 && Character.isWhitespace(string.charAt(i))) {
+            i--;
+        }
+        return string.substring(0, i + 1);
     }
 
     public static String rstrip(String string, String element) {
@@ -1394,7 +1397,11 @@ public class Lp {
     }
 
     public static String lstrip(String string) {
-        return string.stripLeading();
+        int i = 0;
+        while (i < string.length() && Character.isWhitespace(string.charAt(i))) {
+            i++;
+        }
+        return string.substring(i);
     }
 
     public static String lstrip(String string, String element) {
@@ -1404,6 +1411,7 @@ public class Lp {
         }
         return string.substring(i);
     }
+
 
     public static List<String> split(String string) {
         return Arrays.asList(string.split(Pattern.quote("")));
