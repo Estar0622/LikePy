@@ -1,4 +1,4 @@
-package org.estar.likepy;
+package org.estar;
 
 import java.io.BufferedReader;
 import java.io.IOException;
