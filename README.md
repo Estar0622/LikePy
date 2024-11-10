@@ -110,7 +110,9 @@ Equivalent LikePy Code:
 
 
 <h3> Example 3 (Programmers) - Fruit Vendor</h3>
+
 Python Code:
+
 ```Python
         def solution(k, m, score):
     score.sort()
@@ -122,12 +124,12 @@ Python Code:
     while start_point < length:
         price += score[start_point] * m
         start_point += m
-
     return price
 ```
 
 
 Equivalent LikePy Code:
+
 ```Java
         public int solution2(int k, int m, int[] score) {
     List<Integer> li = Pl.list(score);
