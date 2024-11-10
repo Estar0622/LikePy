@@ -62,7 +62,7 @@ dependencies {
 Python Code:
 
 ```python
-        for i in range(1,11):
+for i in range(1,11):
     print(i)
 ```
 <br/>
@@ -70,7 +70,7 @@ Python Code:
 Equivalent LikePy Code:
 
 ```Java
-        for (int i : Pl.range(1,11)) {
+for (int i : Pl.range(1,11)) {
     Pl.print(i);
 }
 ```
@@ -80,7 +80,7 @@ Equivalent LikePy Code:
 
 Python Code:
 ```python
-        def solution(t, p):
+def solution(t, p):
     length = len(p)
     cnt = 0
 
@@ -95,7 +95,7 @@ Python Code:
 Equivalent LikePy Code:
 
 ```Java
-        public static int solution(String t, String p) {
+public static int solution(String t, String p) {
     int length = Pl.len(p);
     int cnt = 0;
 
@@ -114,7 +114,7 @@ Equivalent LikePy Code:
 Python Code:
 
 ```Python
-        def solution(k, m, score):
+def solution(k, m, score):
     score.sort()
     price = 0
     length = len(score)
@@ -131,7 +131,7 @@ Python Code:
 Equivalent LikePy Code:
 
 ```Java
-        public int solution2(int k, int m, int[] score) {
+public int solution2(int k, int m, int[] score) {
     List<Integer> li = Pl.list(score);
     Pl.sort(li);
     int price = 0;
