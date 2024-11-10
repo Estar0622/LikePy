@@ -60,6 +60,7 @@ dependencies {
 <h2>4. Examples </h2>
 <h3>Example 1</h3>
 Python Code:
+
 ```python
         for i in range(1,11):
     print(i)
@@ -67,14 +68,16 @@ Python Code:
 <br/>
 
 Equivalent LikePy Code:
+
 ```Java
         for (int i : Pl.range(1,11)) {
     Pl.print(i);
 }
 ```
-<br/>
+
 
 <h3>Example 2 (Programmers) - Smaller Substring</h3>
+
 Python Code:
 ```python
         def solution(t, p):
@@ -87,9 +90,10 @@ Python Code:
     
     return cnt
 ```
-<br/>
+
 
 Equivalent LikePy Code:
+
 ```Java
         public static int solution(String t, String p) {
     int length = Pl.len(p);
@@ -103,7 +107,7 @@ Equivalent LikePy Code:
     return cnt;
 }
 ```
-<br/>
+
 
 <h3> Example 3 (Programmers) - Fruit Vendor</h3>
 Python Code:
@@ -121,7 +125,8 @@ Python Code:
 
     return price
 ```
-<br/>
+
+
 Equivalent LikePy Code:
 ```Java
         public int solution2(int k, int m, int[] score) {
@@ -138,5 +143,4 @@ Equivalent LikePy Code:
     }
     return price;
 }
-
 ```
