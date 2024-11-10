@@ -22,8 +22,7 @@
 
 <p>To install, add the following code to your build.gradle file and build:</p>
 
-<pre>
-<code>
+```build.gradle
 allprojects {
     repositories {
         ...
@@ -34,8 +33,8 @@ allprojects {
 dependencies {
     implementation 'com.github.yjsayya:LikePy:0.0.2'
 }
-</code>
-</pre>
+```
+<br/>
 
 <h2>3. Usage and Examples</h2>
 <h3>LikePy - Built-in Functions</h3>
@@ -61,26 +60,23 @@ dependencies {
 <h2>4. Examples </h2>
 <h3>Example 1</h3>
 Python Code:
-<pre>
-    <code>
+```python
         for i in range(1,11):
     print(i)
-    </code>
-</pre>
+```
+<br/>
 
 Equivalent LikePy Code:
-<pre>
-    <code>
+```Java
         for (int i : Pl.range(1,11)) {
     Pl.print(i);
 }
-    </code>
-</pre>
+```
+<br/>
 
 <h3>Example 2 (Programmers) - Smaller Substring</h3>
 Python Code:
-<pre>
-    <code>
+```python
         def solution(t, p):
     length = len(p)
     cnt = 0
@@ -90,12 +86,11 @@ Python Code:
             cnt += 1
     
     return cnt
-    </code>
-</pre>
+```
+<br/>
 
 Equivalent LikePy Code:
-<pre>
-    <code>
+```Java
         public static int solution(String t, String p) {
     int length = Pl.len(p);
     int cnt = 0;
@@ -107,13 +102,12 @@ Equivalent LikePy Code:
     }
     return cnt;
 }
-    </code>
-</pre>
+```
+<br/>
 
 <h3> Example 3 (Programmers) - Fruit Vendor</h3>
 Python Code:
-<pre>
-    <code>
+```Python
         def solution(k, m, score):
     score.sort()
     price = 0
@@ -126,12 +120,10 @@ Python Code:
         start_point += m
 
     return price
-    </code>
-</pre>
-
+```
+<br/>
 Equivalent LikePy Code:
-<pre>
-    <code>
+```Java
         public int solution2(int k, int m, int[] score) {
     List<Integer> li = Pl.list(score);
     Pl.sort(li);
@@ -147,5 +139,4 @@ Equivalent LikePy Code:
     return price;
 }
 
-    </code>
-</pre>
+```
