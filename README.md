@@ -1,14 +1,14 @@
-<h1>PyLike</h1>
+<h1>LikePy</h1>
 
-<p>PyLike is an open-source library designed for use in Spring Boot.</p>
+<p>LikePy is an open-source library designed for use in Spring Boot.</p>
 
-<p>The Java Collection Framework can be cumbersome compared to Python’s collections. Due to the complex inheritance hierarchy, remembering the method’s owner object is necessary for usage. With PyLike, Java can be made more “Pythonic”!</p>
+<p>The Java Collection Framework can be cumbersome compared to Python’s collections. Due to the complex inheritance hierarchy, remembering the method’s owner object is necessary for usage. With LikePy, Java can be made more “Pythonic”!</p>
 
 <h2>1. Overview</h2>
 
 <p><strong>Make Java Pythonic!</strong></p>
 
-<p>PyLike was developed to bring Python’s simplicity and elegance to Java, allowing for cleaner and more concise code.</p>
+<p>LikePy was developed to bring Python’s simplicity and elegance to Java, allowing for cleaner and more concise code.</p>
 
 <ul>
     <li>Write Pythonic code in Java.</li>
@@ -32,13 +32,13 @@ allprojects {
 }
 
 dependencies {
-    implementation 'com.github.yjsayya:PyLike:0.0.2'
+    implementation 'com.github.yjsayya:LikePy:0.0.2'
 }
 </code>
 </pre>
 
 <h2>3. Usage and Examples</h2>
-<h3>PyLike - Built-in Functions</h3>
+<h3>LikePy - Built-in Functions</h3>
 
 <li>Pl.abs() - Absolute value</li>
 <li>Pl.divmod() - Quotient and remainder</li>
@@ -55,7 +55,7 @@ dependencies {
 <li>Pl.sum() - Get the total sum</li>
 <li>Pl.in() - Check containment (1)</li>
 <li>Pl.not_in() - Check containment (2)</li>
-For more details, please visit PyLike Documentation.
+
 
 
 <h2>4. Examples </h2>
